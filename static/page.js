@@ -313,7 +313,7 @@ function voiceBanner(bannerId) {
 
         var studio_data = {
             id: "Studio",
-            swf: "https://josephcrosmanplays532.github.io/animation/66453a3ba2cc5e1b/go_full.swf",
+            swf: "https://josephcrosmanplays532.github.io/animation/414827163ad4eb60vyondlegacyremastered/go_full.swf",
             width: "100%",
             height: "100%",
 
@@ -609,7 +609,7 @@ function loadLegacyPreview() {
     createPreviewPlayer("playerdiv", {
         height: 360,
         width: 640,
-        player_url: "https://josephcrosmanplays532.github.io/animation/66453a3ba2cc5e1b/player.swf",
+        player_url: "https://josephcrosmanplays532.github.io/animation/414827163ad4eb60vyondlegacyremastered/player.swf",
         quality: "medium"
     }, {
         movieOwner: "", movieOwnerId: "", movieId: "", ut: "-1",
@@ -851,7 +851,7 @@ ImporterFile.defaults.options.restricted_mime = ["font\/x-font-ttf","font\/vnd.m
 
 <div id="studio_container" style="top: 0px; width: 2238px; height: 1586px;"><div class="ga-importer">
     <div class="ga-importer-header">
-        <form class="ga-importer-base-form" action="/upload_asset" method="post">
+        <form class="ga-importer-base-form" action="/ajax/saveUserProp" method="post">
             <a class="ga-importer-collapse" href="#" title="Collapse" onclick="hideImporter(); return false;">×</a>
 
             <div class="fileinputs">
